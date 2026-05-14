@@ -1,0 +1,2 @@
+# Grasping_Strategy_of_the_Dexterous_Hand_for_Precision_Operations
+面向精准操作的灵巧手抓取策略

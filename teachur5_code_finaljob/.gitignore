@@ -1,0 +1,12 @@
+build/
+.catkin_tools/
+devel/
+logs/
+__pycache__/
+build/
+devel/
+logs/
+install/
+.vscode/
+*.pt
+*.pdf

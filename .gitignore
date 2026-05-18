@@ -1,0 +1,42 @@
+# 压缩包和大数据文件
+*.zip
+*.rar
+*.7z
+*.bag
+
+# 其他视频默认忽略
+*.mp4
+
+# 但允许这个演示视频上传
+!/[完整]5月12日(3).mp4
+
+# 模型和二进制库
+*.pt
+*.pth
+*.onnx
+*.so
+
+# third-party dependencies / external repos
+DexGrasp-Anything/src/pytorch3d/
+DexGrasp-Anything/src/CSDF/
+DexGrasp-Anything/src/pytorch-kinematics/
+teachur5_code_finaljob/src/dual_arm/Universal_Robots_ROS_Driver/
+
+
+# ROS / colcon / catkin 编译产物
+build/
+devel/
+install/
+log/
+**/build/
+**/devel/
+**/install/
+**/log/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# editor / system
+.vscode/
+.DS_Store
